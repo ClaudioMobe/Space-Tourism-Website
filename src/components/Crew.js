@@ -37,10 +37,10 @@ const ContenedorCrew = styled.div`
     height: 100vh;
     width: 100vw;
     background-attachment: fixed;
-    overflow: scroll;
-
+    
     @media (max-width: 812px){
         background-image: url(${fondoTablet});
+        overflow: scroll;
     }
     
     @media (max-width: 480px){

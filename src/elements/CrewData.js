@@ -141,8 +141,11 @@ const DataContainer = styled.div`
 `;
 
 const TextContainer = styled.div`
-    overflow: scroll;
     height: max-content;
+
+    @media (max-width: 812px){
+        overflow: scroll;
+    }
 `;
 
 const Role = styled.p`

@@ -39,10 +39,10 @@ const ContenedorDestination = styled.div`
     background-attachment: fixed;
     height: 100vh;
     width: 100vw;
-    overflow: scroll;
 
     @media (max-width: 812px){
         background-image: url(${fondoTablet});
+        overflow: scroll;
     }
     
     @media (max-width: 480px){
